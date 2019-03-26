@@ -45,4 +45,3 @@ def now_serving(current_line)
   puts "Currently serving #{current_line.first}"
   current_line.shift
 end
-
