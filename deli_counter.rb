@@ -14,8 +14,12 @@ end
 
 
 def take_a_number(name, array)
-puts "Welcome, #{name}. You are number  in line."
+if katz_deli.length == 0
+  katz_deli << "#{name}"
+  puts "Welcome, #{name} . You are number #{array.to_i + 1} in line."
 end
+
+
 
 def now_serving(name)
   if katz_deli.length == 0
