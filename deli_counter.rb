@@ -12,13 +12,6 @@ puts message
 end
 end
 
-#if katz_deli.length >= 1
-#puts "The line is currently: #{katz_deli}"
-#elsif katz_deli.length == 0
-#  puts "The line is currently empty."
-
-#end
-#end
 
 def take_a_number(name, array)
 puts "Welcome, #{name}. You are number  in line."
