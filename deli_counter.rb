@@ -21,7 +21,7 @@ puts "Welcome, #{katz_deli[0]}. You are number #{index + 1} in line."
   end
 end
 end
-end
+
 
 
 def now_serving(name)
