@@ -20,9 +20,9 @@ end
 
 
 def now_serving(name)
-  if katz_deli.length == 0
+  if katz_deli.empty?
   puts "There is nobody waiting to be served!"
-elsif katz_deli.length >= 1
+elsif
 puts "Currently serving #{katz_deli[0]}"
 katz_deli.shift
 
