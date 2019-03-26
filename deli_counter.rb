@@ -19,7 +19,7 @@ if katz_deli.length == 0
       katz_deli << "Ada"
 end
 puts "Welcome, #{katz_deli[0]}. You are number #{array.to_i + 1} in line."
-  
+
 end
 end
 
