@@ -18,7 +18,7 @@ if katz_deli.length == 0
   katz_deli << "#{name}"
   puts "Welcome, #{name} . You are number #{array.to_i + 1} in line."
 end
-
+end
 
 
 def now_serving(name)
