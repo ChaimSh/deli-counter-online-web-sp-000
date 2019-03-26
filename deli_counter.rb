@@ -15,11 +15,11 @@ end
 
 def take_a_number(name, array)
 if katz_deli.length == 0
-  katz_deli.collect do |customer|
+  katz_deli.each_with_index do |value, index|
     katz_deli << "Ada"
-puts "Welcome, Ada. You are number #{array.to_i + 1} in line."
+puts "Welcome, #{katz_deli[0]}. You are number #{index + 1} in line."
   end
-
+end
 end
 end
 
