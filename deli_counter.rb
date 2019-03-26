@@ -17,8 +17,8 @@ def take_a_number(name, array)
 if katz_deli.length == 0
   katz_deli.collect do |customer|
     katz_deli << "#{name}"
-  puts "Welcome, #{katz_deli[0]}. You are number #{array.to_i + 1} in line."
-end
+  end
+puts "Welcome, #{katz_deli[0]}. You are number #{array.to_i + 1} in line."
 end
 end
 
