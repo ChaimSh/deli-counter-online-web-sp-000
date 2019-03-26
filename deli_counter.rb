@@ -31,12 +31,18 @@ end
 
 
 
-def now_serving(name)
-  if katz_deli.length == 0
-  return "There is nobody waiting to be served!"
-elsif katz_deli.length >= 1
-  katz_deli.shift
-  return  "#{katz_deli[0]}"
+#def now_serving(name)
+#  if katz_deli.length == 0
+#  return "There is nobody waiting to be served!"
+#elsif katz_deli.length >= 1
+#  katz_deli.shift
+#  return  "#{katz_deli[0]}"
 
+#end
+#end
+
+def now_serving(current_line)
+  puts "Currently serving #{current_line.first}"
+  current_line.shift
 end
-end
+
