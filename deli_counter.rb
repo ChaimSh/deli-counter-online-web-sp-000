@@ -16,7 +16,7 @@ end
 def take_a_number(name, array)
 if katz_deli.length == 0
   katz_deli << "#{name}"
-  puts "Welcome, #{katz_deli[1]}. You are number #{array.to_i + 1} in line."
+  puts "Welcome, #{katz_deli[0]}. You are number #{array.to_i + 1} in line."
 end
 end
 
